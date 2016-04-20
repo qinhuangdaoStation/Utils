@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明自定义属性
+    attr 用来定义所需要的属性
+    format 表示所定义属性的类型
+    reference 则表示可能是其他类型，如图片等
+    -->
+    <declare-styleable name="Topbar">
+        <attr name="titleCenter" format="string"/>
+        <attr name="titleCenterTextSize" format="dimension"/>
+        <attr name="titleCenterTextColor" format="color"/>
+        <attr name="leftBackground" format="reference|color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="rightBackground" format="reference|color"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextColor" format="color"/>
+    </declare-styleable>
+</resources>
